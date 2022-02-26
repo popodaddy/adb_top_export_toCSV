@@ -2,7 +2,7 @@
 Batch &amp; Python script using Pandas to export android top content(adb top -p) data to csv format in Windows.
 
 # How to use?
-1. We are going to use <code>adb command</code>, so we have to install the <code>Android Debug Bridge(adb) tool</code>.
+1. To use <code>adb command</code>, install the <code>Android Debug Bridge(adb) tool</code>,first.
 2. Enable <code>Developer options</code> on the device & Connecting to the device in usb cable or otherwise.
 3. You just should run the <code>top_export_to_csv.cmd</code>.
 4. That's all!
