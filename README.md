@@ -8,5 +8,6 @@ Batch &amp; Python script using Pandas library for export android top contents(a
 
 # Output
 We will use two <code>.py</code> files. 
-1. The first file, <code>get_process_id.py</code>, is to get the id of the process you want to observe and to create bacth file for executing <code>.py</code> that processes csv converting.
+1. The first file, <code>get_process_id.py</code>, is to get the id of the process you want to observe on Android device and to create bacth file <code>make_to_csv.bat</code> for executing <code>.py</code> that processes csv format converting.
 2. The second file, <code>adb_top_export_to_csv.py</code>, is a file that uses the <code>Pandas library</code> to make the data of <code>adb top -p</code> into a DataFrame and csv format.
+3. 
