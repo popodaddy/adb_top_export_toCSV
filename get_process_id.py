@@ -54,6 +54,6 @@ if smart_shortcuts_app_id_connected and intuition_engine_id_connected == True:
     my_bat.write(start_command + "\n")
     # 1秒待機
     my_bat.write("timeout {0}".format(sleep_time) + "\n")
-    my_bat.write("python adb_top_to_csv.py")
+    my_bat.write("python adb_top_export_to_csv.py")
     # my_bat.write("pause")
     my_bat.close()
