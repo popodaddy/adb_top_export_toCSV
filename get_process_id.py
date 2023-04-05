@@ -8,10 +8,10 @@ smart_shortcuts_app_id_connected = True
 intuition_engine_id_connected = True
 
 print(">> 測定を開始します。")
-smart_shortcuts_app_id = subprocess.Popen('adb shell "ps | grep com.honda.smartdash"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
+smart_shortcuts_app_id = subprocess.Popen('adb shell "ps | grep com.google.smartdash"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
 print(">> smart_shortcuts_app_id, 取得準備OK!!")
 os.system('cmd /c "pause"')
-intuition_engine_id = subprocess.Popen('adb shell "ps | grep com.honda.intuitionengine"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
+intuition_engine_id = subprocess.Popen('adb shell "ps | grep com.google.intuitionengine"', shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0]
 print(">> intuition_engine_id, 取得準備OK!!")
 os.system('cmd /c "pause"')
 smart_shortcuts_app_id = smart_shortcuts_app_id.decode('ascii')
